@@ -1,0 +1,51 @@
+
+body {
+    background-color: lightblue;
+    color: #fff;
+}
+.h {
+    font-size: 55px;
+    color: black;
+}
+.a {
+    border: 1px solid red;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+.b {
+    border: 1px solid green;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+.c {
+    border: 1px solid brown;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+.d {
+    background: red;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 45px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 75px;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    color: darkred;
+    background: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.in {
+    margin: 10px;
+}

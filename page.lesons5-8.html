@@ -3,14 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Leasons 5-8</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Leasons 5-8</h1>
-        <p>Information</p>
-        <table border="1">
+       <center>
+        <h1 class="h">Leasons 5-8</h1>
+        </center>
+        <p align="center">Information</p>
+        <table border="1" align="center">
             <tr>
-                <td colspan="3">Internet</td>
-                <td colspan="4">Voice</td>
+                <td colspan="3" align="center">Internet</td>
+                <td colspan="4" align="center">Voice</td>
             </tr>
             <tr>
                 <td>44</td>
@@ -22,13 +25,71 @@
                 <td>299</td>
             </tr>
         </table>
-            <form>
+            <form align="center">
                  <h1>Registratsiya</h1>
                  <input type="text" placeholder="Login" name="login"><br>
                  <input type="password" placeholder="Password" name="password"><br>
                  <input type="checkbox">
                  <label>I Accept</label><br>
-                 <button type="submit">Ebter</button>
+                 <button type="submit">Enter</button>
             </form>
+            <div class="a">
+                <p>
+                    Что я сделал? Создал три дива, с нижним отступом в 20px, покрасил их в голубой цвет и задал высоту 40px; Если бы я не указал высоту — мы бы не увидели этих дивов, так как в них нет контента.
+                </p>
+                <p>
+                    Как вы видите, див занял всю доступную ширину и растянулся от края до края. Поэтому каждый новый див становится под предыдущий.
+                </p>
+                <p>
+                    Тег спан ведет себя так же, как я и описывал выше — он занимает ширину, в зависимости от своего контента. Спан я тоже покрасил в голубой (чтобы вы увидели, какую он занимает ширину)и задал ему размер шрифта 18px;
+                </p>
+            </div>
+            <div class="b">
+                <p>
+                    Что я сделал? Создал три дива, с нижним отступом в 20px, покрасил их в голубой цвет и задал высоту 40px; Если бы я не указал высоту — мы бы не увидели этих дивов, так как в них нет контента.
+                </p>
+                <p>
+                    Как вы видите, див занял всю доступную ширину и растянулся от края до края. Поэтому каждый новый див становится под предыдущий.
+                </p>
+                <p>
+                    Тег спан ведет себя так же, как я и описывал выше — он занимает ширину, в зависимости от своего контента. Спан я тоже покрасил в голубой (чтобы вы увидели, какую он занимает ширину)и задал ему размер шрифта 18px;
+                </p>
+            </div>
+            <div class="c">
+                <p>
+                    Что я сделал? Создал три дива, с нижним отступом в 20px, покрасил их в голубой цвет и задал высоту 40px; Если бы я не указал высоту — мы бы не увидели этих дивов, так как в них нет контента.
+                </p>
+                <p>
+                    Как вы видите, див занял всю доступную ширину и растянулся от края до края. Поэтому каждый новый див становится под предыдущий.
+                </p>
+                <p>
+                    Тег спан ведет себя так же, как я и описывал выше — он занимает ширину, в зависимости от своего контента. Спан я тоже покрасил в голубой (чтобы вы увидели, какую он занимает ширину)и задал ему размер шрифта 18px;
+                </p>
+            </div>
     </body>
+    <footer>
+        <div class="d" align="center">
+          <input id="cod" class="in" type="number" placeholder="Введіть число" ><br>
+           <script>
+            function MyFunction() {
+                c = document.getElementById("cod").value;
+                document.getElementById('paragraph').innerHTML= c;
+            }
+               function Fun()
+               {
+                   c++;
+                   document.getElementById('paragraph').innerHTML= c;
+               }
+                function Nuf()
+               {
+                   c--;
+                   document.getElementById('paragraph').innerHTML= c;
+               }
+        </script>
+        <button type="button" onclick="Nuf()">-1</button>
+        <button type="button" onclick="MyFunction()">Read</button>
+        <button type="button" onclick="Fun()">+1</button>
+        <p id='paragraph'></p>
+        </div>
+    </footer>
 </html>
